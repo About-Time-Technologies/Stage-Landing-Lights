@@ -473,15 +473,6 @@
 		)
 	)
 	(pad "1" thru_hole circle
-		(at -22 6)
-		(size 2.085 2.085)
-		(drill 1.39)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
-		(uuid "cc4c684c-c010-41cc-b4ac-982ca5d50f55")
-	)
-	(pad "2" thru_hole circle
 		(at 22 6)
 		(size 2.085 2.085)
 		(drill 1.39)
@@ -489,6 +480,15 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
 		(uuid "802ce7b7-db13-4ca8-b03e-5195b7d3cbc3")
+	)
+	(pad "2" thru_hole circle
+		(at -22 6)
+		(size 2.085 2.085)
+		(drill 1.39)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "cc4c684c-c010-41cc-b4ac-982ca5d50f55")
 	)
 	(model "${KIPRJMOD}/AAA Battery.STEP"
 		(offset
