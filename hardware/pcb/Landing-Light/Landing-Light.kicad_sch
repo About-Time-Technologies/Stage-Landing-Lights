@@ -5394,6 +5394,12 @@
 		(uuid "0bbc9d7d-7890-42a9-ad23-2338e21e5bb7")
 	)
 	(junction
+		(at 176.53 238.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c7c2aa3-84b7-4f68-8773-6b1346bbf1fb")
+	)
+	(junction
 		(at 204.47 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5484,12 +5490,6 @@
 		(uuid "5f45c3bc-e6fe-4ab5-84b5-a80b9f461580")
 	)
 	(junction
-		(at 176.53 238.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "62567b50-c038-4033-ac53-a1befd149c74")
-	)
-	(junction
 		(at 224.79 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5554,6 +5554,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9cdf700f-b154-46e1-8c9e-1ec7edeedc52")
+	)
+	(junction
+		(at 154.94 227.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1db7661-6a05-49bf-9b36-712ac0dc812c")
 	)
 	(junction
 		(at 96.52 52.07)
@@ -5656,7 +5662,7 @@
 		(uuid "0498cb77-26ab-4fc2-b3d6-3447c6f43d09")
 	)
 	(no_connect
-		(at 121.92 78.74)
+		(at 121.92 71.12)
 		(uuid "0ef72e98-6fc8-4c30-a453-14ec448cc9ae")
 	)
 	(no_connect
@@ -5847,7 +5853,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 224.79) (xy 154.94 228.6)
+			(xy 154.94 224.79) (xy 154.94 227.33)
 		)
 		(stroke
 			(width 0)
@@ -5874,16 +5880,6 @@
 			(type default)
 		)
 		(uuid "11bd46b5-54d4-42b9-85d5-e8d1ad34d528")
-	)
-	(wire
-		(pts
-			(xy 176.53 238.76) (xy 154.94 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16d0c39f-15f4-42dc-b4e2-5e21bc2be1a5")
 	)
 	(wire
 		(pts
@@ -5957,7 +5953,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 82.55) (xy 165.1 86.36)
+			(xy 165.1 74.93) (xy 165.1 78.74)
 		)
 		(stroke
 			(width 0)
@@ -6107,7 +6103,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 82.55) (xy 130.81 86.36)
+			(xy 130.81 74.93) (xy 130.81 78.74)
 		)
 		(stroke
 			(width 0)
@@ -6194,6 +6190,16 @@
 			(type default)
 		)
 		(uuid "37b672aa-837a-46dd-b41a-124498cc581d")
+	)
+	(wire
+		(pts
+			(xy 154.94 227.33) (xy 154.94 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38266a5f-4989-46b9-995c-24f11c611246")
 	)
 	(wire
 		(pts
@@ -6877,16 +6883,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 238.76) (xy 154.94 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93da82b6-c892-417e-9786-50aaa400b7ca")
-	)
-	(wire
-		(pts
 			(xy 31.75 222.25) (xy 31.75 237.49)
 		)
 		(stroke
@@ -7147,6 +7143,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 227.33) (xy 170.18 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9df96cc-fe61-471b-b0a4-88c4fc3ca878")
+	)
+	(wire
+		(pts
 			(xy 217.17 118.11) (xy 214.63 118.11)
 		)
 		(stroke
@@ -7214,6 +7220,16 @@
 			(type default)
 		)
 		(uuid "cbe1fffa-a5e9-4b91-88e2-27608b2eaad7")
+	)
+	(wire
+		(pts
+			(xy 170.18 227.33) (xy 170.18 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d089fa47-6717-4bc3-8b69-feb484a999db")
 	)
 	(wire
 		(pts
@@ -7397,6 +7413,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 238.76) (xy 176.53 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eec52d2c-30bb-4c74-8c9c-8daeb49b308e")
+	)
+	(wire
+		(pts
 			(xy 204.47 119.38) (xy 204.47 113.03)
 		)
 		(stroke
@@ -7414,6 +7440,16 @@
 			(type default)
 		)
 		(uuid "f1887abd-cd77-47c5-aa5d-f5c7f7d352a0")
+	)
+	(wire
+		(pts
+			(xy 154.94 236.22) (xy 154.94 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2816f31-a24d-4aa4-972e-c16307ea0596")
 	)
 	(wire
 		(pts
@@ -7590,7 +7626,7 @@
 		(uuid "15fffb3c-186e-43af-8851-39cbd6b5f693")
 	)
 	(label "VBUS"
-		(at 139.7 78.74 0)
+		(at 139.7 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7601,7 +7637,7 @@
 		(uuid "209e40c9-4fd7-427d-a6e5-e97b2bfc80f6")
 	)
 	(label "CC1"
-		(at 156.21 78.74 180)
+		(at 156.21 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7623,7 +7659,7 @@
 		(uuid "5fd83d75-d3ce-425e-b013-ba3533ee7930")
 	)
 	(label "CC2"
-		(at 173.99 78.74 0)
+		(at 173.99 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8536,7 +8572,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS_Dual_AAC")
-		(at 165.1 78.74 0)
+		(at 165.1 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8545,7 +8581,7 @@
 		(fields_autoplaced yes)
 		(uuid "22fa7d96-237c-4095-a4eb-ca024141444f")
 		(property "Reference" "D2"
-			(at 165.1 73.66 0)
+			(at 165.1 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8553,7 +8589,7 @@
 			)
 		)
 		(property "Value" "D_TVS_Dual_AAC"
-			(at 165.1 76.2 0)
+			(at 165.1 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8561,7 +8597,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 161.29 78.74 0)
+			(at 161.29 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8570,7 +8606,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 78.74 0)
+			(at 161.29 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8579,7 +8615,7 @@
 			)
 		)
 		(property "Description" "Bidirectional dual transient-voltage-suppression diode, center on pin 3"
-			(at 165.1 78.74 0)
+			(at 165.1 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8588,7 +8624,7 @@
 			)
 		)
 		(property "LCSC" "C32677"
-			(at 165.1 78.74 0)
+			(at 165.1 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11017,6 +11053,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 154.94 241.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99df44a2-f176-4997-b7cd-95b00c832fbb")
+		(property "Reference" "#PWR026"
+			(at 154.94 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48dfa12b-ea19-46f3-9804-612802f2b3e7")
+		)
+		(instances
+			(project "Landing-Light"
+				(path "/f89d3217-1b1a-43a4-8c74-9ff6f0eaa6ee"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:FerriteBead_Small")
 		(at 125.73 46.99 90)
 		(unit 1)
@@ -13003,7 +13105,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 165.1 86.36 0)
+		(at 165.1 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13012,7 +13114,7 @@
 		(fields_autoplaced yes)
 		(uuid "de685d60-d8f4-442f-bdeb-375fb6276365")
 		(property "Reference" "#PWR018"
-			(at 165.1 92.71 0)
+			(at 165.1 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13021,7 +13123,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1 91.44 0)
+			(at 165.1 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13029,7 +13131,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 86.36 0)
+			(at 165.1 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13038,7 +13140,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 86.36 0)
+			(at 165.1 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13047,7 +13149,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.1 86.36 0)
+			(at 165.1 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13212,7 +13314,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 86.36 0)
+		(at 130.81 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13221,7 +13323,7 @@
 		(fields_autoplaced yes)
 		(uuid "e7601718-b5e0-45de-aea2-eb96217fa43d")
 		(property "Reference" "#PWR014"
-			(at 130.81 92.71 0)
+			(at 130.81 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13230,7 +13332,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 91.44 0)
+			(at 130.81 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13238,7 +13340,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 86.36 0)
+			(at 130.81 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13247,7 +13349,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 86.36 0)
+			(at 130.81 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13256,7 +13358,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 86.36 0)
+			(at 130.81 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13703,7 +13805,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS_Dual_AAC")
-		(at 130.81 78.74 0)
+		(at 130.81 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13712,7 +13814,7 @@
 		(fields_autoplaced yes)
 		(uuid "f570ea82-8c35-454b-84eb-9e5c33314b05")
 		(property "Reference" "D4"
-			(at 130.81 73.66 0)
+			(at 130.81 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13720,7 +13822,7 @@
 			)
 		)
 		(property "Value" "D_TVS_Dual_AAC"
-			(at 130.81 76.2 0)
+			(at 130.81 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13728,7 +13830,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 127 78.74 0)
+			(at 127 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13737,7 +13839,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 78.74 0)
+			(at 127 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13746,7 +13848,7 @@
 			)
 		)
 		(property "Description" "Bidirectional dual transient-voltage-suppression diode, center on pin 3"
-			(at 130.81 78.74 0)
+			(at 130.81 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13755,7 +13857,7 @@
 			)
 		)
 		(property "LCSC" "C32677"
-			(at 130.81 78.74 0)
+			(at 130.81 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
