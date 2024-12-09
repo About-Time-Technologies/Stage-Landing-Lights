@@ -8460,6 +8460,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_TVS_Dual_AAC")
+		(at 165.1 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22fa7d96-237c-4095-a4eb-ca024141444f")
+		(property "Reference" "D2"
+			(at 165.1 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS_Dual_AAC"
+			(at 165.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 161.29 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional dual transient-voltage-suppression diode, center on pin 3"
+			(at 165.1 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C32677"
+			(at 165.1 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "48e53b30-0ffb-4501-8310-d3c5db34a1ce")
+		)
+		(pin "2"
+			(uuid "823de2eb-bb1b-4318-acdd-39237226c02d")
+		)
+		(pin "1"
+			(uuid "28633c1d-f74c-4fb8-8d1f-4a884cba0747")
+		)
+		(instances
+			(project "Landing-Light"
+				(path "/f89d3217-1b1a-43a4-8c74-9ff6f0eaa6ee"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 344.17 217.17 0)
 		(unit 1)
@@ -11502,77 +11582,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS_Dual_AAC")
-		(at 99.06 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ab1190a3-53b9-48d9-9272-cdc1673f9d47")
-		(property "Reference" "D3"
-			(at 99.06 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D_TVS_Dual_AAC"
-			(at 99.06 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 95.25 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional dual transient-voltage-suppression diode, center on pin 3"
-			(at 99.06 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "728fb807-7732-4f47-b39d-672bd6a3c742")
-		)
-		(pin "2"
-			(uuid "66b828c8-1b83-45d2-89fd-15234275dea9")
-		)
-		(pin "1"
-			(uuid "10b21931-797f-401f-b924-dc728bca28cc")
-		)
-		(instances
-			(project "Landing-Light"
-				(path "/f89d3217-1b1a-43a4-8c74-9ff6f0eaa6ee"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 257.81 128.27 0)
 		(unit 1)
@@ -11703,77 +11712,6 @@
 			(project "Landing-Light"
 				(path "/f89d3217-1b1a-43a4-8c74-9ff6f0eaa6ee"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS_Dual_AAC")
-		(at 165.1 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b7c0f342-ff8d-4691-ba08-a1f07eb7458d")
-		(property "Reference" "D5"
-			(at 165.1 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D_TVS_Dual_AAC"
-			(at 165.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 161.29 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional dual transient-voltage-suppression diode, center on pin 3"
-			(at 165.1 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "b9701147-5981-4a02-9a71-59c6a1b7e7d4")
-		)
-		(pin "2"
-			(uuid "0d5e2ac3-c10c-4a80-89ec-39b51de227b4")
-		)
-		(pin "1"
-			(uuid "9a5756bc-0cae-4eb8-a9c6-204f5e58b758")
-		)
-		(instances
-			(project "Landing-Light"
-				(path "/f89d3217-1b1a-43a4-8c74-9ff6f0eaa6ee"
-					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -12712,6 +12650,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_TVS_Dual_AAC")
+		(at 99.06 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7c5dbb0-b577-4da1-988d-ceac58efdc22")
+		(property "Reference" "D3"
+			(at 99.06 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS_Dual_AAC"
+			(at 99.06 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 95.25 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional dual transient-voltage-suppression diode, center on pin 3"
+			(at 99.06 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C32677"
+			(at 99.06 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7dad4f1c-cf6f-4a5b-b1a4-9917d3e62d00")
+		)
+		(pin "2"
+			(uuid "e62b90bc-935c-4f5d-8d2a-42187bf028a3")
+		)
+		(pin "1"
+			(uuid "73179a46-21c4-4471-b840-fc3aaf561070")
+		)
+		(instances
+			(project "Landing-Light"
+				(path "/f89d3217-1b1a-43a4-8c74-9ff6f0eaa6ee"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 176.53 234.95 0)
 		(unit 1)
@@ -13522,6 +13540,15 @@
 			)
 		)
 		(property "Description" "Bidirectional dual transient-voltage-suppression diode, center on pin 3"
+			(at 130.81 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C32677"
 			(at 130.81 78.74 0)
 			(effects
 				(font
