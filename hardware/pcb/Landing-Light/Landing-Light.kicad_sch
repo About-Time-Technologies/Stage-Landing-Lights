@@ -8539,9 +8539,9 @@
 		(at 165.1 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22fa7d96-237c-4095-a4eb-ca024141444f")
 		(property "Reference" "D2"
