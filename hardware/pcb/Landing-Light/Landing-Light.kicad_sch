@@ -6466,16 +6466,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 66.04) (xy 62.23 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "638f914b-d99e-41dc-abdb-85262e290d11")
-	)
-	(wire
-		(pts
 			(xy 341.63 121.92) (xy 356.87 121.92)
 		)
 		(stroke
@@ -6723,6 +6713,16 @@
 			(type default)
 		)
 		(uuid "8596aa16-6b80-4117-97e4-996d2ccdf8cd")
+	)
+	(wire
+		(pts
+			(xy 62.23 66.04) (xy 73.66 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "867467b6-6247-49a1-aac9-7d9f9cff2294")
 	)
 	(wire
 		(pts
@@ -7266,6 +7266,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 73.66) (xy 62.23 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d593f292-15cc-4c68-86da-ba54a755a786")
+	)
+	(wire
+		(pts
 			(xy 214.63 58.42) (xy 214.63 55.88)
 		)
 		(stroke
@@ -7536,7 +7546,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 60.96) (xy 53.34 66.04)
+			(xy 53.34 60.96) (xy 53.34 73.66)
 		)
 		(stroke
 			(width 0)
@@ -7630,7 +7640,7 @@
 		)
 		(uuid "33b83468-1884-4e01-8c22-a878b34fc052")
 	)
-	(text "TMR Device Charge Time:\n4 hours = 36k\nClosest cheap value is 33k"
+	(text "TMR Device Charge Time:\n6 hours = 27k"
 		(exclude_from_sim no)
 		(at 64.516 114.554 90)
 		(effects
@@ -7680,12 +7690,27 @@
 		)
 		(uuid "799a0435-cec3-4722-9a17-79538364558d")
 	)
+	(text "9-10mA here"
+		(exclude_from_sim no)
+		(at 314.96 70.612 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "7e758b9c-c259-4748-a6ce-9ed244c3ff35")
+	)
 	(text "2mA here"
 		(exclude_from_sim no)
 		(at 356.87 110.744 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
 				(color 255 0 0 1)
 			)
 		)
@@ -7702,12 +7727,27 @@
 		)
 		(uuid "84323522-482e-40c6-86a0-f65c0a93cd6a")
 	)
+	(text "UVLO"
+		(exclude_from_sim no)
+		(at 203.708 60.706 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "8aa88241-edab-4cc3-b7c4-b0bd582f763f")
+	)
 	(text "9-10mA here"
 		(exclude_from_sim no)
 		(at 381.254 113.03 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
 				(color 255 0 0 1)
 			)
 		)
@@ -7736,7 +7776,7 @@
 		)
 		(uuid "a8414b1d-4621-4435-a3cd-847c9ba5d259")
 	)
-	(text "Device Charge Current:\nRiset = 300AOhm / Ichg\n300 / 0.4 = 750R\n470 + 330 = 800R"
+	(text "Device Charge Current:\nRiset = 300AOhm / Ichg\n300 / 0.2 = 1500R"
 		(exclude_from_sim no)
 		(at 54.864 114.554 90)
 		(effects
@@ -9145,83 +9185,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 53.34 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "37f15c69-9bcd-4907-8ef6-e7124463f8ab")
-		(property "Reference" "R4"
-			(at 55.88 76.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "330R"
-			(at 55.88 78.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 54.356 77.724 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 53.34 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ISET2"
-			(at 57.15 81.026 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25104"
-			(at 53.34 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "44a622cc-61f9-47b3-ae4a-f9bc88fc7957")
-		)
-		(pin "2"
-			(uuid "440dae06-33a7-4fb0-a4f4-686a0af67912")
-		)
-		(instances
-			(project "Landing-Light"
-				(path "/f89d3217-1b1a-43a4-8c74-9ff6f0eaa6ee"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 369.57 127 0)
 		(unit 1)
@@ -10436,6 +10399,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 194.31 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68edbca2-ffee-411e-951b-cf340ca06121")
+		(property "Reference" "R4"
+			(at 196.85 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470k"
+			(at 196.85 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 195.326 77.724 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rfbt"
+			(at 194.31 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25790"
+			(at 194.31 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b8732509-fe75-4950-996c-3ad24a06643c")
+		)
+		(pin "1"
+			(uuid "c5171927-2b0e-41ff-afef-b34390dd0c0d")
+		)
+		(instances
+			(project "Landing-Light"
+				(path "/f89d3217-1b1a-43a4-8c74-9ff6f0eaa6ee"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 22.86 218.44 0)
 		(unit 1)
@@ -10713,6 +10755,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 194.31 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82d42574-a57d-4fc3-9549-256e8b2361f2")
+		(property "Reference" "R3"
+			(at 196.85 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "180k"
+			(at 196.85 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 195.326 66.294 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rfbt"
+			(at 194.31 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22827"
+			(at 194.31 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fd519f6c-6d14-4b80-998b-81a21a2e6fdf")
+		)
+		(pin "1"
+			(uuid "ffbdd55f-6ffe-4446-8016-69d3a671302c")
+		)
+		(instances
+			(project "Landing-Light"
+				(path "/f89d3217-1b1a-43a4-8c74-9ff6f0eaa6ee"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 243.84 67.31 0)
 		(unit 1)
@@ -10793,7 +10914,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 53.34 69.85 0)
+		(at 53.34 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10801,7 +10922,7 @@
 		(dnp no)
 		(uuid "8a4524be-c187-4291-8100-70384fb7c227")
 		(property "Reference" "R6"
-			(at 55.88 68.5799 0)
+			(at 55.88 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10809,8 +10930,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470R"
-			(at 55.88 71.1199 0)
+		(property "Value" "1.5k"
+			(at 55.88 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10819,7 +10940,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 54.356 70.104 90)
+			(at 54.356 77.724 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10828,7 +10949,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 69.85 0)
+			(at 53.34 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10837,15 +10958,15 @@
 			)
 		)
 		(property "Description" "ISET"
-			(at 57.15 73.406 0)
+			(at 57.15 81.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "LCSC" "C25117"
-			(at 53.34 69.85 0)
+		(property "LCSC" "C25867"
+			(at 53.34 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11088,83 +11209,6 @@
 			(project "Landing-Light"
 				(path "/f89d3217-1b1a-43a4-8c74-9ff6f0eaa6ee"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 62.23 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "954589c9-abf4-46c1-b155-2e0a014a86f3")
-		(property "Reference" "R3"
-			(at 64.77 76.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3.3k"
-			(at 64.77 78.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 63.246 77.724 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 62.23 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TMR2"
-			(at 66.04 81.026 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25890"
-			(at 62.23 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "080c402c-c9e6-4810-a3f1-2aeacdee5225")
-		)
-		(pin "2"
-			(uuid "32b25755-35e6-4d77-97fc-3674f37ab286")
-		)
-		(instances
-			(project "Landing-Light"
-				(path "/f89d3217-1b1a-43a4-8c74-9ff6f0eaa6ee"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -13454,7 +13498,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 62.23 69.85 0)
+		(at 62.23 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13462,7 +13506,7 @@
 		(dnp no)
 		(uuid "e9b9caba-9242-4316-ab49-2b4e1bcb066c")
 		(property "Reference" "R7"
-			(at 64.77 68.5799 0)
+			(at 64.77 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13470,8 +13514,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33k"
-			(at 64.77 71.1199 0)
+		(property "Value" "27k"
+			(at 64.77 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13480,7 +13524,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 63.246 70.104 90)
+			(at 63.246 77.724 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13489,7 +13533,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 69.85 0)
+			(at 62.23 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13498,15 +13542,15 @@
 			)
 		)
 		(property "Description" "TMR"
-			(at 66.04 73.406 0)
+			(at 66.04 81.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "LCSC" "C25779"
-			(at 62.23 69.85 0)
+		(property "LCSC" "C25771"
+			(at 62.23 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
