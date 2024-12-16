@@ -7604,6 +7604,32 @@
 		)
 		(uuid "fee643e6-7708-4c00-bc50-4c9335e05639")
 	)
+	(text "Battery \nand reverse polarity protection"
+		(exclude_from_sim no)
+		(at 131.318 34.29 0)
+		(effects
+			(font
+				(size 3 3)
+				(bold yes)
+				(color 0 0 255 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "12fcaf28-2156-4917-bbf9-419613cb18ce")
+	)
+	(text "RGB LED"
+		(exclude_from_sim no)
+		(at 359.156 23.622 0)
+		(effects
+			(font
+				(size 3 3)
+				(bold yes)
+				(color 0 0 255 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "33b83468-1884-4e01-8c22-a878b34fc052")
+	)
 	(text "TMR Device Charge Time:\n4 hours = 36k\nClosest cheap value is 33k"
 		(exclude_from_sim no)
 		(at 64.516 114.554 90)
@@ -7614,6 +7640,45 @@
 			(justify left)
 		)
 		(uuid "46c53f68-bf77-4025-9d33-b62194ac19ac")
+	)
+	(text "3.3v Regulator"
+		(exclude_from_sim no)
+		(at 211.074 31.496 0)
+		(effects
+			(font
+				(size 3 3)
+				(bold yes)
+				(color 0 0 255 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b0e3421-f20d-454a-9479-1631f3ca1114")
+	)
+	(text "Battery Charger"
+		(exclude_from_sim no)
+		(at 17.526 27.94 0)
+		(effects
+			(font
+				(size 3 3)
+				(bold yes)
+				(color 0 0 255 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "787cfd07-cda6-497e-bd0b-71305f1de5cb")
+	)
+	(text "Charging LED"
+		(exclude_from_sim no)
+		(at 297.18 28.702 0)
+		(effects
+			(font
+				(size 3 3)
+				(bold yes)
+				(color 0 0 255 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "799a0435-cec3-4722-9a17-79538364558d")
 	)
 	(text "2mA here"
 		(exclude_from_sim no)
