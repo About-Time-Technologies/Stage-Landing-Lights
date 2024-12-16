@@ -161,4 +161,15 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "497c0995-424d-42ed-97f3-74f15f4bc138")
 	)
+	(model "${KIPRJMOD}/70AAJ-6-F1.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.7 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )

@@ -141,4 +141,15 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "be554014-b73e-4b17-a38b-e95e4f997292")
 	)
+	(model "${KIPRJMOD}/Switch.step"
+		(offset
+			(xyz -4.85 -1.25 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
 )
