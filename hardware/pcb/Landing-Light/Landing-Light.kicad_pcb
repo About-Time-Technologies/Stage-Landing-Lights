@@ -173,7 +173,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R18"
-			(at 0 -1.43 270)
+			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b5abbcce-99de-4af6-ab14-24d1468c9b62")
@@ -185,7 +185,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "967cb6a1-e0a3-4a6a-bd96-96e8b682ce37")
 			(effects
@@ -353,7 +353,7 @@
 			(uuid "ee902788-dbc8-4d1d-a2d4-fa7bcd93316f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "e41ef80c-6dc9-49d7-b24f-37234d34b7ef")
 			(effects
@@ -4727,7 +4727,7 @@
 		(descr "SOT, 3 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178D.PDF inferred 3-pin variant), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q2"
-			(at 0 -2.4 270)
+			(at 0 -2.4 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "8b23d17b-3982-4d00-be2b-d4ffe9d5e6bd")
@@ -4739,7 +4739,7 @@
 			)
 		)
 		(property "Value" "NMOS"
-			(at 0 2.4 270)
+			(at 0 2.4 -90)
 			(layer "F.Fab")
 			(uuid "30a57665-4e9a-4cd0-ad4b-d2ff56dd90bb")
 			(effects
@@ -4758,6 +4758,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4770,6 +4771,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4782,6 +4784,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4984,7 +4987,7 @@
 			(uuid "891464ad-a185-403d-977a-386ac8ef2249")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "183e7f17-1227-41fc-ac88-996087f3ee66")
 			(effects
@@ -9286,7 +9289,7 @@
 		(descr "SOT, 3 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178D.PDF inferred 3-pin variant), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q3"
-			(at 0 -2.4 360)
+			(at 0 -2.4 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "0d8ac9da-d9dd-4162-beda-3a4eb3c9d85b")
@@ -9298,7 +9301,7 @@
 			)
 		)
 		(property "Value" "NMOS"
-			(at 0 2.4 360)
+			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "6a4801bc-2cd9-4530-a42b-77cb7a327e14")
 			(effects
@@ -9317,6 +9320,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9329,6 +9333,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9341,6 +9346,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9543,7 +9549,7 @@
 			(uuid "b86742c7-5d38-4625-be2e-5fe0824e8904")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "7340e7aa-2512-488e-832b-3dab679f2bfe")
 			(effects
@@ -11624,7 +11630,7 @@
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP5"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "ebb40311-d3c4-4510-8410-4673fafeeec9")
@@ -11636,7 +11642,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Open"
-			(at 0 1.9 270)
+			(at 0 1.9 -90)
 			(layer "F.Fab")
 			(uuid "4a5dd463-f4e1-4e64-a902-c8ac7b5cd7f0")
 			(effects
@@ -12570,6 +12576,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -12583,6 +12590,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -12596,6 +12604,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
