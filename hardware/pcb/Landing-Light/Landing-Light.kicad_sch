@@ -7715,6 +7715,19 @@
 		)
 		(uuid "12fcaf28-2156-4917-bbf9-419613cb18ce")
 	)
+	(text "This needs to be a bigger resistor value!"
+		(exclude_from_sim no)
+		(at 358.394 123.19 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "13cb907f-7716-42f6-81dc-15d8f5d155d1")
+	)
 	(text "Vf = 2.6, Vs = 5v, I = 5mA\nR = \n"
 		(exclude_from_sim no)
 		(at 336.296 199.644 0)
@@ -7736,6 +7749,19 @@
 			(justify left)
 		)
 		(uuid "2a26ed27-a8c7-47df-9f06-da1830c0b6ef")
+	)
+	(text "Need to test lumen output \nat various currents on LED\n\n*(Might be able to reduce\ncurrent to save power)"
+		(exclude_from_sim no)
+		(at 418.338 53.594 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "2d74b162-ce25-4054-86b7-bc4c2cd7d74e")
 	)
 	(text "RGB LED"
 		(exclude_from_sim no)
@@ -7893,6 +7919,32 @@
 			(justify left)
 		)
 		(uuid "c6b0c3f3-7866-4ee6-8ded-909f171e7119")
+	)
+	(text "Why are we always \ndrawing so much current?\n\n(~23 mA)"
+		(exclude_from_sim no)
+		(at 288.29 41.148 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "d1d6155a-a4bd-4c86-ac03-eee9f394dc99")
+	)
+	(text "Check the UVLO settings\nIsn't cutting out correctly"
+		(exclude_from_sim no)
+		(at 218.694 48.26 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "d2dd3458-2f27-494c-a1b0-bedcd5d5f314")
 	)
 	(text "USB-C Connector"
 		(exclude_from_sim no)
