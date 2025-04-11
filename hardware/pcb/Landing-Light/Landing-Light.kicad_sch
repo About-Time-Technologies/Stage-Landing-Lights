@@ -7728,6 +7728,19 @@
 		)
 		(uuid "13cb907f-7716-42f6-81dc-15d8f5d155d1")
 	)
+	(text "0603 resistors\nConsolidate BOM\nChange power routing so we're only on for the LED\nNew connector"
+		(exclude_from_sim no)
+		(at 188.468 146.05 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "17406b6b-e99e-42ee-8b53-03dcdc920abc")
+	)
 	(text "Vf = 2.6, Vs = 5v, I = 5mA\nR = \n"
 		(exclude_from_sim no)
 		(at 336.296 199.644 0)
@@ -14239,7 +14252,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Landing-Light:70AAJ-4-F1G"
+		(property "Footprint" "MHCI:399-10-104-10-008000"
 			(at 53.34 179.07 0)
 			(effects
 				(font
