@@ -6163,7 +6163,7 @@
 	)
 	(text "Need to test lumen output \nat various currents on LED\n\n*(Might be able to reduce\ncurrent to save power)\n\nTarget 2mA"
 		(exclude_from_sim no)
-		(at 418.338 53.594 0)
+		(at 419.862 65.278 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -6250,7 +6250,7 @@
 		)
 		(uuid "7e758b9c-c259-4748-a6ce-9ed244c3ff35")
 	)
-	(text "2mA here"
+	(text "1mA"
 		(exclude_from_sim no)
 		(at 356.87 110.744 0)
 		(effects
@@ -6284,19 +6284,6 @@
 			(justify left)
 		)
 		(uuid "9da333be-57a1-4af3-abb0-53d94cc51f91")
-	)
-	(text "Does this still work now the \n3.3v regulator is on a switch?"
-		(exclude_from_sim no)
-		(at 172.8444 105.2592 0)
-		(effects
-			(font
-				(size 1.905 1.905)
-				(thickness 0.381)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "9dc6d1a6-6fdb-4328-a2fb-208d3b5316ef")
 	)
 	(text "Device Charge Current:\nRiset = 300AOhm / Ichg\n300 / 0.2 = 1.5k"
 		(exclude_from_sim no)
@@ -6680,7 +6667,7 @@
 		(uuid "1c97d960-81a3-4836-b101-a1ef5bf213bc")
 	)
 	(no_connect
-		(at 223.52 44.45)
+		(at 231.14 34.29)
 		(uuid "41c9a26a-3d45-4c79-a527-01c438785efb")
 	)
 	(no_connect
@@ -8640,7 +8627,7 @@
 		(uuid "f0e3587b-d435-46b5-8f4b-87f63aab1dcc")
 	)
 	(label "CC2"
-		(at 163.83 259.08 0)
+		(at 171.45 223.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8650,7 +8637,7 @@
 		(uuid "f3b69e71-f079-4d8a-aa69-934d0e48409f")
 	)
 	(label "CC1"
-		(at 163.83 254 0)
+		(at 171.45 218.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8661,7 +8648,7 @@
 	)
 	(global_label "DATA2"
 		(shape input)
-		(at 138.43 259.08 180)
+		(at 146.05 223.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8671,7 +8658,7 @@
 		)
 		(uuid "2046ad05-d877-42f5-8134-383b1369612a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.8205 259.08 0)
+			(at 137.4405 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8683,7 +8670,7 @@
 	)
 	(global_label "DATA1"
 		(shape input)
-		(at 138.43 254 180)
+		(at 146.05 218.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8693,7 +8680,7 @@
 		)
 		(uuid "21ac5c2d-993a-4776-8ebd-b7b43ea99bf8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.8205 254 0)
+			(at 137.4405 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9691,7 +9678,7 @@
 	)
 	(symbol
 		(lib_id "power:VDC")
-		(at 151.13 243.84 0)
+		(at 158.75 208.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9700,7 +9687,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b78d9fb-3351-4578-a538-47c6d128b68a")
 		(property "Reference" "#PWR015"
-			(at 151.13 247.65 0)
+			(at 158.75 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9709,7 +9696,7 @@
 			)
 		)
 		(property "Value" "VIN"
-			(at 151.13 238.76 0)
+			(at 158.75 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9717,7 +9704,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 243.84 0)
+			(at 158.75 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9726,7 +9713,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 243.84 0)
+			(at 158.75 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9735,7 +9722,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDC\""
-			(at 151.13 243.84 0)
+			(at 158.75 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11040,7 +11027,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:SRV05-4")
-		(at 151.13 256.54 0)
+		(at 158.75 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11049,7 +11036,7 @@
 		(fields_autoplaced yes)
 		(uuid "74b8915a-5f65-4b66-94c4-52460b3c45b6")
 		(property "Reference" "U2"
-			(at 154.1465 241.3 0)
+			(at 161.7665 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11058,7 +11045,7 @@
 			)
 		)
 		(property "Value" "SRV05-4"
-			(at 154.1465 243.84 0)
+			(at 161.7665 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11067,7 +11054,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 168.91 267.97 0)
+			(at 176.53 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11076,7 +11063,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF"
-			(at 151.13 256.54 0)
+			(at 158.75 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11085,7 +11072,7 @@
 			)
 		)
 		(property "Description" "ESD Protection Diodes with Low Clamping Voltage, SOT-23-6"
-			(at 151.13 256.54 0)
+			(at 158.75 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11094,7 +11081,7 @@
 			)
 		)
 		(property "LCSC" "C15879"
-			(at 151.13 256.54 0)
+			(at 158.75 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12773,7 +12760,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 151.13 269.24 0)
+		(at 158.75 233.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12782,7 +12769,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf283041-4018-4d00-8346-7bd9927f5247")
 		(property "Reference" "#PWR012"
-			(at 151.13 275.59 0)
+			(at 158.75 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12791,7 +12778,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 151.13 274.32 0)
+			(at 158.75 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12799,7 +12786,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 269.24 0)
+			(at 158.75 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12808,7 +12795,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 269.24 0)
+			(at 158.75 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12817,7 +12804,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 151.13 269.24 0)
+			(at 158.75 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
