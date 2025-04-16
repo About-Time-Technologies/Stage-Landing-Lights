@@ -10346,9 +10346,9 @@
 		(at 306.07 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4423aff6-3042-42e8-aa9c-b23b1ce3f2a8")
 		(property "Reference" "C3"
