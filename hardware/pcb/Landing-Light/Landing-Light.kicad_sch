@@ -6280,6 +6280,19 @@
 		)
 		(uuid "c6b0c3f3-7866-4ee6-8ded-909f171e7119")
 	)
+	(text "4.7kR here. Calculate current"
+		(exclude_from_sim no)
+		(at 418.084 88.646 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "cec67896-0ad7-4f0b-adba-e0220692c7cd")
+	)
 	(text "Why are we always \ndrawing so much current?\n\n(~23 mA)"
 		(exclude_from_sim no)
 		(at 288.29 41.148 0)
@@ -6306,6 +6319,19 @@
 		)
 		(uuid "dd58fa8d-69b1-460c-9ff5-807776ff8b52")
 	)
+	(text "BAttery charger needs to be connected to -BATT not GND"
+		(exclude_from_sim no)
+		(at 134.366 102.616 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "e8458ca2-3526-4101-835b-13450a6c5399")
+	)
 	(junction
 		(at 46.99 242.57)
 		(diameter 0)
@@ -6329,6 +6355,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b613222-9058-439f-829d-8343e2f66e43")
+	)
+	(junction
+		(at 144.78 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1284ba71-f7a0-47bf-9ef6-856150aa09f0")
 	)
 	(junction
 		(at 228.6 53.34)
@@ -6565,6 +6597,12 @@
 		(uuid "d58350cd-e9c0-43ed-805a-23246ee14db5")
 	)
 	(junction
+		(at 130.81 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ded720ba-fdfe-48c5-8a67-29b6239e88bb")
+	)
+	(junction
 		(at 154.94 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6575,12 +6613,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df7b934c-8f0f-4847-8a35-595eca6ee169")
-	)
-	(junction
-		(at 88.9 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e9565f24-ae8e-4cf3-9880-38a632603267")
 	)
 	(junction
 		(at 306.07 55.88)
@@ -6890,6 +6922,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 53.34) (xy 154.94 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "277be6d5-2523-43dd-86e7-181616ab9499")
+	)
+	(wire
+		(pts
 			(xy 261.62 63.5) (xy 283.21 63.5)
 		)
 		(stroke
@@ -7127,6 +7169,16 @@
 			(type default)
 		)
 		(uuid "4552da0f-22ae-4eda-9e6b-5b0477750c2f")
+	)
+	(wire
+		(pts
+			(xy 130.81 83.82) (xy 144.78 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46fbc605-09bc-4643-a387-e62efc0514a7")
 	)
 	(wire
 		(pts
@@ -7750,7 +7802,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 83.82) (xy 104.14 83.82)
+			(xy 71.12 83.82) (xy 104.14 83.82)
 		)
 		(stroke
 			(width 0)
@@ -7967,26 +8019,6 @@
 			(type default)
 		)
 		(uuid "a72ce597-b155-4d31-91c6-45b0b419dfa7")
-	)
-	(wire
-		(pts
-			(xy 88.9 83.82) (xy 88.9 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acb17584-b59f-494b-b491-2064bcf4eaed")
-	)
-	(wire
-		(pts
-			(xy 71.12 83.82) (xy 88.9 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af553c4f-2998-41ee-905e-7891eb865f29")
 	)
 	(wire
 		(pts
@@ -8207,16 +8239,6 @@
 			(type default)
 		)
 		(uuid "dfc33930-872d-48c7-b9ff-e4ade461c6ef")
-	)
-	(wire
-		(pts
-			(xy 130.81 48.26) (xy 130.81 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfd895f2-14f9-46ea-89e1-0a6390f0f2d6")
 	)
 	(wire
 		(pts
@@ -11312,72 +11334,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 130.81 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7c39b2f0-e99a-4016-aca6-e0b7a44bc956")
-		(property "Reference" "#PWR026"
-			(at 130.81 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 130.81 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 130.81 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7357e680-7814-4227-bc44-84a5fbc78f01")
-		)
-		(instances
-			(project "Landing-Light"
-				(path "/f89d3217-1b1a-43a4-8c74-9ff6f0eaa6ee"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 118.11 201.93 0)
 		(unit 1)
@@ -12337,72 +12293,6 @@
 			(project "Landing-Light"
 				(path "/f89d3217-1b1a-43a4-8c74-9ff6f0eaa6ee"
 					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 88.9 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a15f35c0-dae5-45ab-8377-33b0318fe733")
-		(property "Reference" "#PWR03"
-			(at 88.9 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 88.9 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7ad846a0-2dc5-4076-9000-d01633f2ba33")
-		)
-		(instances
-			(project "Landing-Light"
-				(path "/f89d3217-1b1a-43a4-8c74-9ff6f0eaa6ee"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
