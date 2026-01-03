@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Landing-Light")(type "KiCad")(uri "${KIPRJMOD}/Landing-Light.kicad_sym")(options "")(descr ""))
   (lib (name "BQ25172DSGR")(type "KiCad")(uri "C:/Users/samla/Downloads/BQ25172DSGR/BQ25172DSGR.kicad_sym")(options "")(descr ""))
+  (lib (name "399-10-102-10-008000")(type "KiCad")(uri "/Users/samlane/Documents/KiCad_Libs/399-10-102-10-008000/399-10-102-10-008000.kicad_sym")(options "")(descr ""))
 )

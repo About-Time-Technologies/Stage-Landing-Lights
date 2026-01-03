@@ -1,7 +1,7 @@
 (footprint "AAA Side Mount"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "a9b40b42-d272-4d95-9b5d-8543e68e1de8")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "194892bc-1b51-4603-b56b-968fe9b4b9a9")
 		(effects
 			(font
 				(size 1 1)
@@ -128,8 +115,18 @@
 		(uuid "8b792763-0be1-43f4-ac28-961cd076fc23")
 	)
 	(fp_line
+		(start -23.3 7.2)
+		(end -22.3 7.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "850d5338-ba42-4b4c-935d-cacf8ffc6c4a")
+	)
+	(fp_line
 		(start -23.2925 4.7075)
-		(end -23.2925 19.03)
+		(end -23.2925 7.2)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -138,7 +135,17 @@
 		(uuid "1b415e77-e8ba-46f5-928d-fef247711201")
 	)
 	(fp_line
-		(start -23.2925 19.03)
+		(start -22.3 7.2)
+		(end -22.3 19.03)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "8c7f9619-e2e0-4acf-ad26-ea3c4f6dd3f5")
+	)
+	(fp_line
+		(start -22.3 19.03)
 		(end -20.7075 19.03)
 		(stroke
 			(width 0.05)
@@ -169,7 +176,7 @@
 	)
 	(fp_line
 		(start 20.9075 4.7075)
-		(end 23.4925 4.7075)
+		(end 23.5 4.7075)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -188,17 +195,27 @@
 		(uuid "7b88a5c0-fd8a-4de9-83cf-c32efbca9a80")
 	)
 	(fp_line
-		(start 23.4925 4.7075)
-		(end 23.4925 19.03)
+		(start 22.5 7.2)
+		(end 22.5 19.03)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "4b2c616d-d7a1-4d4d-8aa7-a25501c7d31e")
+		(uuid "67b63735-5831-4265-804f-1cc4c7a363b9")
 	)
 	(fp_line
-		(start 23.4925 19.03)
+		(start 22.5 7.2)
+		(end 23.5 7.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "90663449-49b3-4267-89c4-86d7461c9cf1")
+	)
+	(fp_line
+		(start 22.5 19.03)
 		(end 20.9075 19.03)
 		(stroke
 			(width 0.05)
@@ -207,6 +224,16 @@
 		(layer "F.CrtYd")
 		(uuid "3a098423-8491-4759-af26-615742e81062")
 	)
+	(fp_line
+		(start 23.5 4.7075)
+		(end 23.5 7.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4b2c616d-d7a1-4d4d-8aa7-a25501c7d31e")
+	)
 	(fp_rect
 		(start -22.5 10.5)
 		(end 22.5 22)
@@ -214,7 +241,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "8829e2b1-c500-43a5-9a82-03cfa8f5f215")
 	)
@@ -490,6 +517,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "cc4c684c-c010-41cc-b4ac-982ca5d50f55")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/AAA Battery.STEP"
 		(offset
 			(xyz -21 -16.5 1)
